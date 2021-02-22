@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Entornos Virtuales en Python"       # Title of the post
-description: Los entornos virtuales permiten aislar recursos.       # Description of the post, used for Facebook Opengraph & Twitter
-headline: Markdown Syntax Test      # Will appear in bold letters on top of the post
+description:      # Description of the post, used for Facebook Opengraph & Twitter
+headline: Entornos Virtuales      # Will appear in bold letters on top of the post
 modified: 2021-2-19                 # Date
 category: class
 tags: []
@@ -21,7 +21,21 @@ Los entornos virtuales tienen el objetivo de aislar nuestros proyectos, de maner
 
 Veamos algunas de las opciones que podemos tener para usar entornos virtuales:
 
-* **<a href="https://virtualenv.pypa.io/">virtualenv</a>** Herramienta no oficial de Python
+#### **<a href="https://virtualenv.pypa.io/">virtualenv</a>**
+Herramienta no oficial de Python
 
-Instalación `pip install virtualenv`
-Creación de entorno virtual `virtualenv nombreEntorno`
+Instalación `pip install virtualenv`  
+Creación de entorno virtual `virtualenv nombreEntorno`  
+Desactivar un entorno virtual (salir) `deactivate`  
+Activar un entorno virtual (abrir) `source bin/activate`
+
+##### **<a href="https://pypi.org/project/virtualenvwrapper/">virtualenvwrapper</a>**
+
+Se puede potenciar las capacidades de virtualenv a través de la extensión *virtualenvwrapper*
+
+Instalación `pip install virtualenvwrapper`  
+Instalación en Windows `pip install virtualenvwrapper-win`  
+Creación de entorno virtual `mkvirtualenv nombreEntorno`  
+Eliminar entorno virtual `rmvirtualenv nombreProyecto`
+Activar entorno virtual `workon nombreProyecto`  
+Listar entorno virtuales `lsvirtualenv`
