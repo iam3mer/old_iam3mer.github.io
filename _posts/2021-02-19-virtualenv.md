@@ -36,8 +36,8 @@ Se puede potenciar las capacidades de virtualenv a través de la extensión *vir
 
 Instalación `pip install virtualenvwrapper-win` (en unix se puede omitir el -win)  
 Creación de entorno virtual `mkvirtualenv nombreEntorno`  
-Eliminar entorno virtual `rmvirtualenv nombreProyecto`  
-Activar entorno virtual `workon nombreProyecto`  
+Eliminar entorno virtual `rmvirtualenv nombreEntorno`  
+Activar entorno virtual `workon nombreEntorno`  
 Listar entornos virtuales `lsvirtualenv`  
-Copiar entorno virtual `cpvirtualenv nombreProyecto nompreCopia`
+Copiar entorno virtual `cpvirtualenv nombreEntorno nompreCopia`
 
