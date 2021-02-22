@@ -21,6 +21,7 @@ Los entornos virtuales tienen el objetivo de aislar nuestros proyectos, de maner
 
 Veamos algunas de las opciones que podemos tener para usar entornos virtuales:
 
-**virtualenv** Herramienta no oficial de Python
+* **<a href="https://virtualenv.pypa.io/">virtualenv</a>** Herramienta no oficial de Python
 
-Instalación 'pip install virtualenv'
+Instalación `pip install virtualenv`
+Creación de entorno virtual `virtualenv nombreEntorno`
