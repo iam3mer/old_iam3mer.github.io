@@ -12,7 +12,8 @@ mathjax:
 ---
 
 Normalmente en Python cuando requerimos instalar algun paquete para nuestro proyecto lo hacemos con ***pip***.  
-***pip*** es un gestor de paquetes y su función es administrar las dependencias en Python. Muchas de las dependencias disponibles se encuentran en <a href="https://pypi.org/">PyPi</a>
+
+***Pip*** es un gestor de paquetes y su función es administrar las dependencias en Python. Muchas de las dependencias disponibles se encuentran en <a href="https://pypi.org/">PyPi</a>
 
 Que pasa cuando tenemos cientos de proyectos los cuales necesitan hacer uso de versiones diferentes de estas dependencias?
 
