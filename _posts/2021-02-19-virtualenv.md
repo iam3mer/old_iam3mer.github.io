@@ -26,16 +26,17 @@ Herramienta no oficial de Python
 
 Instalación `pip install virtualenv`  
 Creación de entorno virtual `virtualenv nombreEntorno`  
-Desactivar un entorno virtual (salir) `deactivate`  
-Activar un entorno virtual (abrir) `source bin/activate`
+Desactivar entorno virtual (salir) `deactivate`  
+Activar entorno virtual (abrir) `.\nombreEntorno\Scripts\activate`
 
 ##### **<a href="https://pypi.org/project/virtualenvwrapper/">virtualenvwrapper</a>**
 
 Se puede potenciar las capacidades de virtualenv a través de la extensión *virtualenvwrapper*
 
-Instalación `pip install virtualenvwrapper`  
-Instalación en Windows `pip install virtualenvwrapper-win`  
+Instalación `pip install virtualenvwrapper-win` (en unix se puede omitir el -win)  
 Creación de entorno virtual `mkvirtualenv nombreEntorno`  
-Eliminar entorno virtual `rmvirtualenv nombreProyecto`
+Eliminar entorno virtual `rmvirtualenv nombreProyecto`  
 Activar entorno virtual `workon nombreProyecto`  
-Listar entorno virtuales `lsvirtualenv`
+Listar entornos virtuales `lsvirtualenv`
+Copiar entorno virtual `cpvirtualenv nombreProyecto nompreCopia`
+
