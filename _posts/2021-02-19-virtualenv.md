@@ -39,5 +39,5 @@ Creación de entorno virtual `mkvirtualenv nombreEntorno`
 Eliminar entorno virtual `rmvirtualenv nombreEntorno`  
 Activar entorno virtual `workon nombreEntorno`  
 Listar entornos virtuales `lsvirtualenv`  
-Copiar entorno virtual `cpvirtualenv nombreEntorno nompreCopia`
+Duplicar entorno virtual `cpvirtualenv nombreEntorno nompreCopia`
 
