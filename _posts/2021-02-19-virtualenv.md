@@ -37,6 +37,6 @@ Instalación `pip install virtualenvwrapper-win` (en unix se puede omitir el -wi
 Creación de entorno virtual `mkvirtualenv nombreEntorno`  
 Eliminar entorno virtual `rmvirtualenv nombreProyecto`  
 Activar entorno virtual `workon nombreProyecto`  
-Listar entornos virtuales `lsvirtualenv`
+Listar entornos virtuales `lsvirtualenv`  
 Copiar entorno virtual `cpvirtualenv nombreProyecto nompreCopia`
 
