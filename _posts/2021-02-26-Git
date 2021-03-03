@@ -1,0 +1,5 @@
+Git
+
+Git es un potente sistema de control de versiones distribuido (DVCS) de código abierto. El ser distribuido permite que cada una de las copias del código de los desarrolladores sea un repositorio que alberga todo el historial de cambios, a diferencia de los sistemas de control de versiones centralizados.
+
+Para instalar git basta con visitar <<https://git-scm.com/downloads>>
